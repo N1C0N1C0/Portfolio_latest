@@ -1,3 +1,5 @@
+'use strict'
+
 // Headerにて、ページをスクロールする時、ダークのスタイルが適用する。
 const header = document.querySelector('.header');
 const headerHeight = header.offsetHeight;
