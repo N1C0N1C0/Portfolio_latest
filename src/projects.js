@@ -11,7 +11,7 @@ categories.addEventListener('click', (e) => {
   }
 
   handleActionSelection(e.target);
-  
+
   filterProjects(filter);
 });
 
@@ -34,4 +34,5 @@ function filterProjects(filter) {
   setTimeout(() => {
     projectsContainer.classList.remove('animation--out');
   },250);
-}
+};
+
